@@ -1,0 +1,105 @@
+
+
+.Shoots{ 
+ 
+    /* height: 100vh; */
+    background-color: #f8f6f5;
+
+} 
+
+.Shoots .Head{ 
+
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    padding-top: 50px;
+} 
+
+.Head h1{ 
+    /* line-height: 37.7px;  */  
+
+    font-family: 'Josefin Sans', sans-serif; 
+     font-size: 29px;  
+     font-weight:700;
+     line-height: 37.7px; 
+     letter-spacing: 3.77px;
+     color: #4c4c4c;
+
+   
+} 
+.Head h3{  
+    
+    font-family: 'Josefin Sans', sans-serif; 
+     font-size: 12px; 
+     font-weight: 700;  
+     letter-spacing: 1.56px; 
+     line-height: 18px; 
+     color: #888888;
+     /* background-color: black; */
+
+}
+
+.CardGallery{  
+    /* width: 100vh; */
+
+    /* box-sizing: border-box;  */
+    margin: 10px; 
+    padding: 10px; 
+  
+     width: 100%; 
+     
+     margin: 0 auto; 
+     padding: 50px 20px; 
+     display: grid;
+     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); 
+     /* grid-auto-rows: 700px;  */
+     grid-auto-flow: dense;
+     /* grid-gap: 20px; */
+   
+    /* justify-content:space-between;  */
+
+    /* column-count: 3;  */
+    /* column-width: 600px; */
+}
+
+.Card {  
+   
+    cursor: pointer; 
+
+    
+
+} 
+
+.Card img{ 
+    width: 100%;  
+    min-height: 300px;
+    max-height: 400px;
+    object-fit: cover; 
+    transition: 400ms ease-in-out;
+}  
+
+.Card img:hover{  
+    /* aspect-ratio: 1.1; */
+    transform: scale(.95); 
+    transition: 400ms ease-in-out;
+    
+} 
+.Card .clientName h3{ 
+    font-family: 'Josefin Sans', sans-serif;  
+    font-size: 17px;
+    font-weight: 700; 
+    color: #4c4c4c; 
+    line-height: 20px; 
+    letter-spacing: 1.76px; 
+    padding: auto;
+} 
+.Card .clientName h3:hover{  
+    color: #888888;
+   
+}
+
+.Card .clientName h3:hover ~ .Card img {  
+    transform: scale(.95); 
+    transition: 400ms ease-in-out;
+   
+}

@@ -1,0 +1,35 @@
+
+
+
+*{ 
+    box-sizing: border-box;
+}
+.welcomeWindow{ 
+ 
+    /* padding: inherit;
+    margin: inherit; */
+    width: 100%; 
+    display: grid;
+    /* padding: 50px 20px;  */
+    /* background-color: red; */
+    grid-template-columns: repeat( auto-fit,minmax(50px,1fr));
+    
+    column-gap: 10px;
+}
+
+.welcomeWindow img{ 
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    overflow: hidden;
+    max-height: 300px;
+}
+.welcomeWindow h1,p{ 
+   padding-bottom: 15px;
+}
+.welcomeWindow button{ 
+   padding: 15px 25px;
+   border: 1px solid blue;
+   cursor: pointer;
+}
+

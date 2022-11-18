@@ -1,0 +1,97 @@
+
+*{ 
+    box-sizing: border-box;
+
+} 
+
+.numbersCover{ 
+    background-color: black;
+    position: relative;
+    /* min-height: 500px; */
+}
+
+.numbersContainer{ 
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    /* min-height: 500px; */
+    /* height: 500px; */
+}
+
+.numbersHeading{ 
+    padding-top: 50px;
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.numberCards{ 
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-left: 30px;
+    /* color: white; */
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px,1fr));
+    grid-gap: 20px;
+
+
+    
+}
+
+.numbersCard{ 
+    position: relative;
+    min-height: 250px;
+    /* height: 500px; */
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+    
+}
+.numbersCard h2{ 
+    background-color: blue;
+    /* max-width: 30px; */
+    border-radius: 100%;
+    padding: 10px 10px;
+
+    
+}
+
+
+.contentCover{ 
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    align-items: center;
+}
+
+.absoluteIcon{ 
+    position: absolute;
+    width: 100%;
+    top:-1rem;
+    padding: 0;
+    margin: 0;
+    /* background-color: green; */
+} 
+
+.absoluteItem{ 
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+} 
+
+.contentCover h1{ 
+    font-size: 5rem;
+    
+}
+.contentCover p{ 
+    color: black;
+}

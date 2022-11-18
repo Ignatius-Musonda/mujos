@@ -1,0 +1,147 @@
+
+
+*{
+    box-sizing: border-box; 
+
+}
+
+.advices{ 
+    position: relative;
+    /* background-color: #f8f6f5; */
+    /* height:100vh; */
+    /* display: grid; 
+    grid-template-columns: repeat(auto-fit, minmax(420px, 1fr));  */
+    width:100%;
+
+} 
+
+.advices .Head{ 
+         display: flex; 
+         flex-direction: column; 
+         text-align: center;
+
+}
+
+.CardHolder{ 
+    /* background-color: rgb(247, 247, 247); */
+    /* padding: 10px 10px 10px 10px; */
+    border-radius: 3px;
+    margin-bottom: 7px;
+}
+
+.Cardzz{ 
+
+  width: 100%; 
+  display: grid;
+  /* padding: 50px 20px;  */
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding: 0; 
+  /* background-color: #FFFFFF; */
+  grid-template-columns: repeat( auto-fit,minmax(350px,1fr));
+  column-gap: 1px;
+  
+
+
+
+}
+.Icons{
+
+      display: flex;
+      margin-bottom: 2px;
+
+} 
+.Icons i{
+
+    font-size: 20px;
+    padding: 0 4px 0 4px;
+
+} 
+
+.Cardzz .ImageText { 
+    display: flex; 
+    flex-direction: column;
+    text-align: left; 
+    /* background-color: red; */
+
+} 
+
+.Cardzz .ImageText{ 
+    margin-bottom: 2px;
+    padding-right: 100px;
+}
+
+.ImageText h3{ 
+
+    font-family: 'Josefin Sans', sans-serif; 
+    font-size: 24px;
+    font-weight: 700;
+    /* letter-spacing: 3px; */
+    word-spacing: 0px;
+    line-height: 36px; 
+    color: #4C4C4C;
+}
+
+.ImageHolderThird img{
+
+    width: 100%;
+    object-fit: cover;
+    min-height: 350px;
+    max-height: 350px;
+
+
+}
+
+
+.ImageText h1{ 
+    /* line-height: 37.7px;  */  
+
+    font-family: 'Josefin Sans', sans-serif; 
+     font-size: 29px;  
+     font-weight:700;
+     line-height: 37.7px; 
+     letter-spacing: 3.77px;
+     color: #4c4c4c;
+
+   
+} 
+
+.ImageText p{ 
+
+    font-family: 'Josefin Sans', sans-serif; 
+    font-size: 17px;
+    font-weight: 300;
+    /* letter-spacing: 3px; */
+    line-height: 21px;  
+    color: #4C4C4C;
+}
+
+.moreButtonz button{ 
+    /* border:none; 
+    margin-top: 7px;
+    padding: 14px 20px;
+    opacity: 0.9;
+   
+    background-color: #F4524D;
+    transition: all 0.3s ease-out;
+    border-radius: 5px;
+    margin-bottom: 3px;
+    cursor: pointer; */
+
+    border: none;
+    padding: 15px 25px;
+    border: 1px solid blue;
+    cursor: pointer;
+
+}
+
+/* .moreButton:hover { 
+    border:none; 
+    margin-top: 7px;
+    padding: 14px 20px;
+    opacity: 1;
+    transition: all 0.3s ease-in;
+    
+    background-color: #F4524D;
+    border-radius: 5px;
+} */

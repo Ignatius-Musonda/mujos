@@ -1,24 +1,39 @@
-import logo from './logo.svg';
-import './App.css';
+
+import NavBar from "./components/NavBar/NavBar";
+import HeroSection from "./components/HeroSection/HeroSection";
+import Welcome from "./components/Welcome/Welcome";
+import Landing from "./Pages/Landing/Landing";
+import {Routes,Route,Navigate} from 'react-router-dom'
+import {HashRouter as Router} from 'react-router-dom'
+import Primary from "./components/Primary/Primary";
+import OValues from "./components/OurValues/Values";
+import Secondary from "./components/Secondary/Secondary";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+   
+    <Router> 
+
+        <Routes>
+            <Route path='/'  element={<Landing/>}>
+                <Route index element={<OValues />} />
+                <Route index path="Values" element={<OValues />} />  
+                <Route path="Primary" element={<Primary />} />
+                <Route path="Secondary" element={<Secondary />} />
+                 
+            </Route> 
+
+            {/* <Route  element={<Landing />} /> */}
+
+        </Routes>
+    </Router>
+    // <div>
+    //   <NavBar/>
+    //   <HeroSection/>
+    //   <Welcome/>
+      
+    // </div>
+    
   );
 }
 
