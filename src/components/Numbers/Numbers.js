@@ -39,7 +39,7 @@ function Numbers(){
                                                     
                                                     
                                                     <div className='contentCover'> 
-                                                            <h1>{item.Number}+<i class="fa-solid fa-house"></i></h1>
+                                                            <h1>{item.Number}</h1>
                                                             <p>{item.Word}</p>
 
                                                     </div>

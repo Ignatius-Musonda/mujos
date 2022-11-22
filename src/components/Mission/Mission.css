@@ -1,0 +1,27 @@
+
+
+.MissionCover{ 
+    position: relative;
+     /* width: 100%; */
+    /* background-image: url("../../images/img1.jpg");  */
+}
+
+.MissionWord{ 
+    position: relative;
+    /* padding-top: 35vh;  */
+    color: white;
+    /* padding-bottom: 35vh; */
+    padding: 35vh 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    /* background-image: url("../../images/img1.jpg"); */
+
+    background-color: black; /* Used if the image is unavailable */
+    /* height: 500px; You must set a specified height */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+
+}

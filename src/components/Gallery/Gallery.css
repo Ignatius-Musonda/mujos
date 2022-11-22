@@ -1,4 +1,15 @@
 
+.galleryCover{ 
+    box-sizing: border-box;
+}
+
+.galleryHeading{ 
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
 
 .Shoots{ 
  
@@ -92,6 +103,7 @@
     line-height: 20px; 
     letter-spacing: 1.76px; 
     padding: auto;
+
 } 
 .Card .clientName h3:hover{  
     color: #888888;

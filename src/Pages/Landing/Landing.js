@@ -6,6 +6,9 @@ import Welcome from "../../components/Welcome/Welcome";
 import News from "../../components/News/News";
 import Numbers from "../../components/Numbers/Numbers";
 import Gallery from "../../components/Gallery/Gallery";
+import Mission from "../../components/Mission/Mission";
+import Partners from "../../components/Partners/Partners";
+import Footer from "../../components/Footer/Footer";
 
 function Landing(){  
 
@@ -19,6 +22,9 @@ function Landing(){
                     <News/>
                     <Numbers/>
                     <Gallery/>
+                    <Mission/>
+                    <Partners/>
+                    <Footer/>
           </div>
         </>
     )
