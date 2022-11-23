@@ -44,11 +44,11 @@ function Numbers(){
 
                                                     </div>
 
-                                                    <div className='absoluteIcon'>
+                                                    {/* <div className='absoluteIcon'>
                                                         <div className='absoluteItem'>
                                                              <h2>ELo</h2>
                                                          </div>
-                                                    </div>
+                                                    </div> */}
                                                     
                                                 </div>
                                             )

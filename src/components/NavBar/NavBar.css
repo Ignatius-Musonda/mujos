@@ -18,6 +18,33 @@
    
 } 
 
+.scrollCover{ 
+    background-color: #555555;
+    position: fixed;
+    /* background-color: red; */
+    top: 50;
+    left: 0;
+    width: 100%;
+    z-index: 5; 
+
+    
+}
+
+.scrollCover .NavTop{
+
+    width: 100%;
+    background-color: #ede3e3;
+    height: 30px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+
+
+
 .NavCover .NavTop{ 
      /* position: relative; */
      width: 100%;
@@ -36,7 +63,19 @@
     justify-content: right;
     align-items: center;
 }
+.scrollCover .NavTop ul{ 
+     
+    list-style: none;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+} 
+
 .NavCover .NavTop li{ 
+     
+    padding-right: 10px;
+}
+.scrollCover .NavTop li{ 
      
     padding-right: 10px;
 }
@@ -51,6 +90,7 @@
     color: white;
     padding-left: 20px;
     padding-right: 20px;
+    line-height: 3rem;
     /* background-color: red; */
 }
 

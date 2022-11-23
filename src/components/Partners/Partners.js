@@ -30,7 +30,7 @@ function Partners(){
              <div className='partnersCover'> 
                 
                 <div className='partnerWord'>
-                        <h2>Mujos's is proud to partner with the following organisations:</h2>
+                        <p><b>Mujos's</b> is proud to partner with the following organisations:</p>
                 </div>
                
                   <div className='partnerLogo'>

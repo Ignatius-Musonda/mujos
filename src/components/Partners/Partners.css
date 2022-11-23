@@ -4,6 +4,9 @@
     width: 100%;
     /* min-height: 500px; */
 } 
+.partnersCover p{ 
+    font-size: 1.5rem;
+} 
 
 .partnerWord{ 
      display: flex;

@@ -28,12 +28,12 @@ function Mission(){
                     // style={{ transform: `translateY(-${offsetY}px)`}}
                     //  style={{ transform: `translateY(${offsetY * 0.8}px)` }}
                      > 
-                            <div> 
+                            {/* <div>  */}
 
                                 <h1>Our Mission</h1>
                                 <h3>Education is key to the success of your Dreams.</h3>
 
-                            </div>
+                            {/* </div> */}
 
                     </div>
 
