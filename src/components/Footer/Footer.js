@@ -1,4 +1,5 @@
 
+import "./Footer.css"
 
 function Footer(){  
 
@@ -6,7 +7,11 @@ function Footer(){
 
         <> 
             
-            Footer
+            <div className="MFooterCover">  
+                    <p>Copyright @ Mujos 2022</p>
+                    <p>Website Develeped @ NERDARR</p>
+
+            </div>
          
         </>
     )

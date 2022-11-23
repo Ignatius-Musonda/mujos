@@ -9,6 +9,7 @@ import Gallery from "../../components/Gallery/Gallery";
 import Mission from "../../components/Mission/Mission";
 import Partners from "../../components/Partners/Partners";
 import Footer from "../../components/Footer/Footer";
+import SubFooter from "../../components/SubFooter/SubFooter";
 
 function Landing(){  
 
@@ -24,6 +25,7 @@ function Landing(){
                     <Gallery/>
                     <Mission/>
                     <Partners/>
+                    {/* <SubFooter/> */}
                     <Footer/>
           </div>
         </>

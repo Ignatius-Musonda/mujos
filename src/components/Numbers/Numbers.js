@@ -34,7 +34,7 @@ function Numbers(){
                                     {cards.map((item,index)=>{ 
                                             
                                             return(
-                                                <div className='numbersCard'>
+                                                <div className='numbersCard' key={index}>
                                                     {/* <i></i> */}
                                                     
                                                     
