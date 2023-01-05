@@ -8,6 +8,7 @@ import {HashRouter as Router} from 'react-router-dom'
 import Primary from "./components/Primary/Primary";
 import OValues from "./components/OurValues/Values";
 import Secondary from "./components/Secondary/Secondary";
+import Aboutus from "./Pages/Aboutus/Aboutus";
 
 function App() {
   return (
@@ -20,6 +21,13 @@ function App() {
                 <Route index path="Values" element={<OValues />} />  
                 <Route path="Primary" element={<Primary />} />
                 <Route path="Secondary" element={<Secondary />} />
+                 
+            </Route> 
+            <Route path='/Aboutus'  element={<Aboutus/>}>
+                {/* <Route index element={<OValues />} />
+                <Route index path="Values" element={<OValues />} />  
+                <Route path="Primary" element={<Primary />} />
+                <Route path="Secondary" element={<Secondary />} /> */}
                  
             </Route> 
 

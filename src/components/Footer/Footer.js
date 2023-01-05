@@ -9,7 +9,7 @@ function Footer(){
             
             <div className="MFooterCover">  
                     <p>Copyright @ Mujos 2022</p>
-                    <p>Website Develeped @ NERDARR</p>
+                    <p>Develeped @ NERDARR</p>
 
             </div>
          
