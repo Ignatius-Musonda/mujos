@@ -27,8 +27,8 @@ function App() {
                 {/* <Route index element={<OValues />} />
                 <Route index path="Values" element={<OValues />} />  
                 <Route path="Primary" element={<Primary />} />
-                <Route path="Secondary" element={<Secondary />} /> */}
-                 
+                <Route path="Secondary" element={<Secondary />} />
+                  */}
             </Route> 
 
             {/* <Route  element={<Landing />} /> */}
