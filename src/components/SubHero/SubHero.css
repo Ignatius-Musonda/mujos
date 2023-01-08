@@ -1,0 +1,19 @@
+
+
+*{
+    box-sizing: border-box;
+} 
+
+
+.SubHeroCover{ 
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 250px;
+    background-image: url("../../images/img3.jpg");
+    background-repeat: no-repeat;
+    /* background:fixed; */
+    /* background-size: cover; */
+    
+}

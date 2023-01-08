@@ -113,20 +113,19 @@ function NavBar(){
                     className="NavWhole">
 
                       <div className="Logo">
-                        <h1>Mujos</h1>
+                        <Link className="LinkItem" to="/"><h1>Mujos</h1></Link>
                       
                       </div>
 
 
                       <div className="NavLinks">
                         <ul>
-                            <li>Home</li>
-                            <li>News Items</li>
-                            <li>I.T Short courses</li>
-                            <li>Photo Gallery</li>
-                            <li>About Us</li>
-                            <li>Contact Us</li>
-                            <li>Staff</li>
+                            <li><Link className="LinkItem" to="/">Home</Link></li>
+                            <li><Link className="LinkItem" to="/aboutus">About Us</Link></li>
+                            <li><Link className="LinkItem" to="/OurLearning">Our Learning</Link></li>
+                            <li>School Life</li>
+                            <li>Admission</li>
+  
                         </ul>
                       </div>
                   

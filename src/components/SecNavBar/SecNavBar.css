@@ -2,10 +2,18 @@
     box-sizing: border-box;
     margin: 0;
 }
+Link{ 
+    list-style: none;
+    text-decoration: none;
+    color: inherit;
+}
 
-/* .NavLinks ul{ 
-    display: flex;
-} */
+
+.LinkItem{ 
+    list-style: none;
+    text-decoration: none;
+    color: inherit;
+}
 
 .NavCover{ 
 
@@ -19,7 +27,8 @@
 } 
 
 .SecNavBar{ 
-    background-color: #555555;
+    /* background-color: #555555; */
+    background-color: #355070;
     position: relative;
     /* background-color: red; */
     top: 50;
@@ -102,4 +111,5 @@
 .NavLinks li{ 
    
     padding-right: 10px;
+    cursor: pointer;
 }

@@ -7,8 +7,8 @@
 .pageSubHead{
     position: relative;
     display: flex;
-    padding-left: 50px;
-    background-color: blue;
+    padding-left: 30px;
+    background-color: #2A9DD6;
     color: white;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -21,7 +21,7 @@
    
 }
 .pageContent button{
-   background-color: blue;
+    background-color: #2A9DD6;
    max-width: 70px;
    border: none;
    
@@ -40,7 +40,7 @@
     display: flex;
     flex-direction: column;
     min-width: 300px;
-    padding-left: 50px;
+    padding-left: 30px;
 }
 .quickMenu h3,button{
     padding: 7px 0;
@@ -61,7 +61,18 @@
     cursor: pointer;
 
 }
+.quickMenu li:hover{ 
+
+    color: #2A9DD6;
+
+}
 
 .contentOutlet{ 
-    padding-left: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+
+}
+
+.contentOutlet .Content{
+    margin-top: 8px;
 }

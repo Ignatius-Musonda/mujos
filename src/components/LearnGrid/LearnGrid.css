@@ -1,0 +1,72 @@
+ 
+ *{
+    box-sizing: border-box;
+ }
+
+ .LearnGridCover{ 
+    position: relative;
+    width: 100%;
+  
+ }
+ .LearnGridCover .subHead{ 
+    width: 100%;
+    display: flex;
+    padding-left: 30px;
+    margin-top: 25px;
+ }
+ .LearnGridCover .subHead p{ 
+    padding-right: 6px;
+ }
+
+ .LearnPicGridCover{ 
+    position: relative;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(350px,1fr));
+    /* grid-auto-flow: dense; */
+    grid-gap: 10px;
+    padding: 0 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  
+
+ }
+ .LearnPicGridCover .LearnGridImg:nth-child(2){ 
+
+        grid-column: span 2;
+        grid-row: span 2;
+        height: 100%;
+    
+ }
+ .LearnPicGridCover .LearnGridImg:nth-child(4){ 
+
+        /* grid-column: span 2;
+        grid-row: span none; */
+        /* height: 100%;
+     */
+ }
+ .LearnPicGridCover img{ 
+  
+        width: 100%;
+        object-fit: cover;
+ }
+
+ .gridOverlay{
+    position: absolute;
+    z-index: 5;
+    /* width: 100%;
+    height: 100%; */
+    top: 20px;;
+    bottom: 20px;
+    left: 20px;
+    right: 20px;
+    /* background-color: red; */
+ }
+
+ .overlayContainer{ 
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+ }
+ 
