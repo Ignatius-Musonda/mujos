@@ -11,7 +11,7 @@ function OurLearning(){
 
         <>  
             <SecNavBar/>
-            <SubHero/>
+            {/* <SubHero/> */}
             <LearnGrid/>
             <Footer/>
              

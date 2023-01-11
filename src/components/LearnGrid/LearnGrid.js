@@ -10,22 +10,28 @@ function LearnGrid(){
 
     const Images = [
         { 
-            "imgUrl" : img1
+            "imgUrl" : img1,
+            "Desc" : "Our Approach"
         },
         { 
-            "imgUrl" : img2
+            "imgUrl" : img2,
+            "Desc" : "Enchrichment Subjects"
         },
         { 
-            "imgUrl" : img3
+            "imgUrl" : img3,
+            "Desc" : "Development subjects"
         },
         { 
-            "imgUrl" : img4
+            "imgUrl" : img4,
+            "Desc" : "Assessments"
         },
         { 
-            "imgUrl" : img5
+            "imgUrl" : img5,
+            "Desc" : "Curriculum Overviews"
         },
         { 
-            "imgUrl" : img5
+            "imgUrl" : img5,
+            "Desc" : "Extra currilum"
         },
         // { 
         //     "imgUrl" : img5
@@ -58,10 +64,14 @@ function LearnGrid(){
                                     return (<>
                                     <div key={index} className="LearnGridImg">
                                         <img src={item.imgUrl} />
+                                       
                                         <div className="gridOverlay">
-                                            {/* <div className="overlayContainer"> */}
-                                                  <h1>HI people</h1>
-                                            {/* </div> */}
+                                            
+                                            <h2>{item.Desc}</h2>
+
+                                            <div className="overlayContainer">
+                                                <button> Read More</button>
+                                            </div>
                                             
                                         </div>
                                     </div>

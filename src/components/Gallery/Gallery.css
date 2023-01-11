@@ -51,9 +51,7 @@
 }
 
 .CardGallery{  
-    /* width: 100vh; */
-
-    /* box-sizing: border-box;  */
+  
     margin: 10px; 
     padding: 10px; 
   
@@ -114,4 +112,14 @@
     transform: scale(.95); 
     transition: 400ms ease-in-out;
    
+}
+
+@media screen and (max-width: 730px){   
+
+    .CardGallery{  
+  
+        margin: 0;
+        padding: 5px;
+    }    
+
 }

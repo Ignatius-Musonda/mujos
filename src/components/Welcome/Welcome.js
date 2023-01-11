@@ -66,17 +66,10 @@ function Welcome() {
                         </ul>
 
                             
-                               {/* 
-                                    <Routes>
-                                        <Route path='/Values'  element={<Primary/>} /> 
-                                        <Route path='/Landing/Values'  element={<OValues/>} /> 
-
-                                    </Routes> */}
+                        
                                
                                 <Outlet/>
-                        {/* <li><Link>Our Values</Link></li>
-                            <li><Link>Primary School</Link></li>
-                            <li><Link>Seconday School</Link></li> */}
+                        
                  </div>
 
                  <div> 

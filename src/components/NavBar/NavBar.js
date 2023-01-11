@@ -1,7 +1,10 @@
 
 import { Link } from "react-router-dom";
 import { useState,useRef, useEffect } from "react";
-import './NavBar.css'
+import './NavBar.css'; 
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faBars ,faTimes} from '@fortawesome/free-solid-svg-icons';
+
 
 
 // function useOnScreen(options){ 
@@ -94,6 +97,7 @@ function NavBar(){
 
 
     return <>
+           
             <div className={scrollState? "scrollCover": "NavCover"}
            
             >
@@ -139,6 +143,64 @@ function NavBar(){
                     </div>
 
             </div>
+            {/* Input field */}
+            <input type="checkbox" id="cancel-btn" /> 
+
+            {/* Responsive NavBar unclicked */}
+            <div className="resTitle"> 
+                
+                <div className="barItem"> 
+                    
+                    <div className="NavItemi"><Link className='text-link' to="/"><h3>Mujos</h3></Link> </div>  
+                    
+              </div>
+        
+              <div className="barItem"> 
+                  
+                              <label for="cancel-btn" className="btn cancel-btn"> <FontAwesomeIcon icon={faBars} /></label>
+                
+              </div>
+   
+          </div>
+
+          {/* Resnav Whole clicked/unwarapped*/}
+           
+          <div className="Wbarinit">    
+
+          <div className="resBar" >  
+
+            <div className="barItem"> 
+                
+                  <h3 className="NavItemi">Mujos</h3>
+                
+            </div>
+
+            <div className="barItem"> 
+              
+                <label for="cancel-btn" className="btn cancel-btn"><FontAwesomeIcon icon={faTimes}/></label>
+            </div>
+
+          </div>
+
+            <ul className="Sidelist">  
+                    
+                    
+
+                                      <li className="ListItem"><Link className='text-link' to="/">HOME</Link> </li>
+                                      <li className="ListItem"><Link className='text-link' to="/AboutUs">ABOUT</Link></li>
+                                      <li className="ListItem"><Link className='text-link' to="/OurLearning">OUR LEARNING</Link></li>              
+                                      <li className="ListItem"><Link className='text-link' to="/SchoolLife">SCHOOL LIFE</Link></li>
+                                      <li className="ListItem"> <Link className='text-link' to="/Admission">ADMISSIONS</Link></li>
+                                      <li className="ListItem"> <Link className='text-link' to="/Contactus">CONTACT</Link></li>
+                                      {/* <li className="ListItem"> <i class="fab fa-opencart"></i></li> */}
+                          
+
+                  </ul> 
+
+           
+
+            </div> 
+          
            
             
             

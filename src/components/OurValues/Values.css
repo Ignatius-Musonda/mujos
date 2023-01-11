@@ -4,8 +4,6 @@
 }
 .welcomeWindow{ 
  
-    /* padding: inherit;
-    margin: inherit; */
     width: 100%; 
     display: grid;
     /* padding: 50px 20px;  */
@@ -29,5 +27,20 @@
    padding: 15px 25px;
    border: 1px solid blue;
    cursor: pointer;
+}
+
+.windowText{
+    padding-bottom: 10px;
+}
+
+@media screen and (max-width: 730px){   
+
+    .welcomeWindow{ 
+        display: flex;
+        flex-wrap: wrap-reverse;
+    }
+    
+
+
 }
 

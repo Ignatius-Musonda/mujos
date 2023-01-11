@@ -47,7 +47,7 @@ function Gallery(){
         <> 
             <div className="galleryCover"> 
                      <div className="galleryHeading"> 
-                            <h1>TAKE A CAMPUS TOUR</h1>
+                            <h2>TAKE A CAMPUS TOUR</h2>
                             <p>A selection of pictures around our school</p>
 
                      </div>

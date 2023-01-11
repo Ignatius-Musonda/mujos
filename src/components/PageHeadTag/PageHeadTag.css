@@ -76,3 +76,8 @@
 .contentOutlet .Content{
     margin-top: 8px;
 }
+
+.pageContent{
+    flex-wrap: wrap-reverse;
+}
+

@@ -33,3 +33,16 @@
    cursor: pointer;
 }
 
+@media screen and (max-width: 730px){   
+
+    .welcomeWindow{ 
+        display: flex;
+        flex-wrap: wrap-reverse;
+    }
+    
+
+
+}
+
+
+

@@ -113,3 +113,125 @@ Link{
     padding-right: 10px;
     cursor: pointer;
 }
+
+ /* Responsive Configs */
+ .Wbarinit {
+
+    display: none;
+    
+} 
+.Wbarinit .resBar {
+
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    
+} 
+
+#cancel-btn:checked ~ .Wbarinit {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    background-color: #355070;
+    /* left: -200px; */
+  } 
+
+  .Wbarinit .Sidelist { 
+
+    display: none;
+
+   }
+
+
+ 
+
+.LinkItem{ 
+    list-style: none;
+    text-decoration: none;
+    color: inherit;
+}
+
+.resTitle{
+    display: none;
+}
+
+#cancel-btn:checked ~ .resTitle {
+
+    display: none;
+    color: white;
+    padding-top: 10px;
+  
+  } 
+
+  /* #cancel-btn:checked ~ .NavCover{
+
+    display: flex; 
+  }  */
+
+  
+
+@media screen and (max-width: 730px){   
+
+    .scrollCover{
+        display: none;
+    } 
+
+    .NavCover{
+        display: none;
+    }
+
+    .resTitle{ 
+        background-color: #355070;
+        position: relative;
+    
+        top: 50;
+        left: 0;
+        width: 100%;
+        z-index: 5; 
+        display: flex;
+        justify-content: space-between;
+        padding: 10px;
+        color: white;
+    }
+
+    .scrollCover{
+        display: none;
+    }
+    .NavCover{
+        display: none;
+    }
+
+    .Wbarinit .Sidelist { 
+
+        display: flex; 
+        flex-direction: column;   
+        padding: 0;
+        justify-content:space-evenly; 
+        min-height: 500px;
+        align-items: center;
+         /* top: 65px; */
+         list-style: none;
+    
+    } 
+    
+    .Wbarinit.Sidelist li {
+    
+        font-size: 23px;
+        border-radius: 5px;
+        color: inherit;
+        text-decoration: inherit;
+    
+    
+    } 
+    .SecNavBar{
+        display: none;
+    }
+    
+
+
+
+}
+

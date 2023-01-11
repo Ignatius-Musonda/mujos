@@ -28,14 +28,13 @@ function Numbers(){
           
            <div className='numbersCover'> 
 
-                    <div className='numbersHeading'><h1>A few Interesting Numbers<FontAwesomeIcon icon="check-square" /></h1> </div>
+                    <div className='numbersHeading'><h2>A few Interesting Numbers<FontAwesomeIcon icon="check-square" /></h2> </div>
                         <div className='numbersContainer'>
                             <div className='numberCards'> 
                                     {cards.map((item,index)=>{ 
                                             
                                             return(
                                                 <div className='numbersCard' key={index}>
-                                                    {/* <i></i> */}
                                                     
                                                     
                                                     <div className='contentCover'> 
@@ -43,12 +42,6 @@ function Numbers(){
                                                             <p>{item.Word}</p>
 
                                                     </div>
-
-                                                    {/* <div className='absoluteIcon'>
-                                                        <div className='absoluteItem'>
-                                                             <h2>ELo</h2>
-                                                         </div>
-                                                    </div> */}
                                                     
                                                 </div>
                                             )
