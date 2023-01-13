@@ -174,7 +174,7 @@ function PageHeadTag(){
                             return(<>
                                
                                <ul>
-                                    <li onClick={ e => setCIDHandler(e,item.CID)}>{item.CHeading}</li>
+                                    <li  key={index} onClick={ e => setCIDHandler(e,item.CID)}>{item.CHeading}</li>
                                </ul>
 
                             </>)

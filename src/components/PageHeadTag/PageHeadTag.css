@@ -77,7 +77,15 @@
     margin-top: 8px;
 }
 
-.pageContent{
-    flex-wrap: wrap-reverse;
-}
 
+@media screen and (max-width: 730px){   
+
+   
+    .pageContent{
+        flex-wrap: wrap-reverse;
+    }
+    
+
+
+
+}
