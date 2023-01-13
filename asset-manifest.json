@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/mujos/static/css/main.bb3f220b.css",
+    "main.js": "/mujos/static/js/main.28897a4a.js",
+    "static/js/787.598ec35a.chunk.js": "/mujos/static/js/787.598ec35a.chunk.js",
+    "static/media/img1.jpg": "/mujos/static/media/img1.b5b439faa38762990060.jpg",
+    "static/media/img2.jpg": "/mujos/static/media/img2.bc0d317e6892d41a6bb1.jpg",
+    "static/media/img3.jpg": "/mujos/static/media/img3.edee2bfd21d77eabd540.jpg",
+    "static/media/isazLogo.png": "/mujos/static/media/isazLogo.b420f292173faf78044d.png",
+    "static/media/asbiro2.jpg": "/mujos/static/media/asbiro2.b61fcf7c52c6a99ff351.jpg",
+    "static/media/moeLogo.png": "/mujos/static/media/moeLogo.5b935612f3c8d6d6010b.png",
+    "index.html": "/mujos/index.html",
+    "main.bb3f220b.css.map": "/mujos/static/css/main.bb3f220b.css.map",
+    "main.28897a4a.js.map": "/mujos/static/js/main.28897a4a.js.map",
+    "787.598ec35a.chunk.js.map": "/mujos/static/js/787.598ec35a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bb3f220b.css",
+    "static/js/main.28897a4a.js"
+  ]
+}
